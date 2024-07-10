@@ -12,3 +12,37 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+:root {
+  --primary: rgba(206, 52, 122, 1);
+  --primary-light: rgba(243, 174, 212, 1);
+  --primary-extra-light: rgba(243, 174, 212, 0.4);
+  --primary-dark: rgba(166, 34, 91, 1);
+  --primary-hover: rgba(206, 52, 122, 0.2);
+  --primary-contrast: white;
+
+  --secondary: rgba(93, 107, 152, 1);
+  --secondary-light: rgba(182, 190, 214, 1);
+  --secondary-extra-light: rgba(182, 190, 214, 0.4);
+  --secondary-dark: rgba(74, 85, 120, 1);
+  --secondary-hover: rgba(93, 107, 152, 0.1);
+  --secondary-contrast: white;
+
+  --error: rgba(240, 68, 56, 1);
+  --error-light: rgba(254, 228, 226, 1);
+  --error-extra-light: rgba(254, 228, 226, 0.6);
+  --error-dark: rgba(217, 45, 32, 1);
+  --error-hover: rgba(240, 68, 56, 0.1);
+  --error-contrast: white;
+
+  --text-primary: #000000;
+  --text-primary-light: #ffffff;
+  --text-secondary: #ffffff;
+  --text-error: rgba(240, 68, 56, 1);
+
+  --borders-medium: #dcdfea;
+  --borders-strong: #b9c0d4;
+  --borders-extra-strong: #515151;
+
+  --background-light: #f9f9fb;
+}
