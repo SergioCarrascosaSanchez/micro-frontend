@@ -3,12 +3,11 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 
-// @ts-ignore
 import Chip from "react_remote/Chip";
 
 const App = () => (
   <div className="container">
-    <div>Name: react-host</div>
+    <div>Name: react_host</div>
     <Chip label="Chip" color="primary" size="large" />
     <div>Framework: react</div>
     <div>Language: TypeScript</div>

@@ -6,7 +6,7 @@ import Chip from "./Chip/Chip";
 
 const App = () => (
   <div className="container">
-    <div>Name: react-remote</div>
+    <div>Name: react_remote</div>
     <Chip label="Chip" color="primary" size="large" />
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
