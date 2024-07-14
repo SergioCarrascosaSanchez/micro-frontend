@@ -7,7 +7,7 @@ interface ChipProps {
   size?: "small" | "medium" | "large";
 }
 
-export default function Chip({ label, color, size }: ChipProps) {
+const Chip: React.FC<ChipProps> = ({ label, color, size = "medium" }) => {
   return (
     <p
       className={`chip chip-${size}`}
@@ -19,4 +19,7 @@ export default function Chip({ label, color, size }: ChipProps) {
       {label}
     </p>
   );
-}
+};
+
+export default Chip;
+export type { ChipProps };
